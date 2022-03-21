@@ -1,0 +1,13 @@
+venv
+.vscode
+tests
+local.settings.json
+.gitignore
+requirements-dev.txt
+Dockerfile
+.dockerignore
+typings
+.mypy_cache
+*storage*
+__pycache__
+__azurite*

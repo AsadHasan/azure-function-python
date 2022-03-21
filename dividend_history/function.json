@@ -1,0 +1,20 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+        {
+            "name": "req",
+            "direction": "in",
+            "type": "httpTrigger",
+            "authLevel": "function",
+            "route": "dividends/{ticker}",
+            "methods": [
+                "get"
+            ]
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "$return"
+        }
+    ]
+}
